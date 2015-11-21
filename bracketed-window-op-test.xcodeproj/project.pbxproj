@@ -11,6 +11,7 @@
 		6332B8921C00FA87005FDBB3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6332B8911C00FA87005FDBB3 /* main.m */; };
 		6332B8941C00FA87005FDBB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6332B8931C00FA87005FDBB3 /* Assets.xcassets */; };
 		6332B8971C00FA87005FDBB3 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6332B8951C00FA87005FDBB3 /* MainMenu.xib */; };
+		6332B8A01C00FB1A005FDBB3 /* BracketedTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6332B89F1C00FB1A005FDBB3 /* BracketedTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,8 @@
 		6332B8931C00FA87005FDBB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6332B8961C00FA87005FDBB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		6332B8981C00FA87005FDBB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6332B89E1C00FB1A005FDBB3 /* BracketedTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BracketedTest.h; sourceTree = "<group>"; };
+		6332B89F1C00FB1A005FDBB3 /* BracketedTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BracketedTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +58,8 @@
 			children = (
 				6332B88D1C00FA87005FDBB3 /* AppDelegate.h */,
 				6332B88E1C00FA87005FDBB3 /* AppDelegate.m */,
+				6332B89E1C00FB1A005FDBB3 /* BracketedTest.h */,
+				6332B89F1C00FB1A005FDBB3 /* BracketedTest.m */,
 				6332B8931C00FA87005FDBB3 /* Assets.xcassets */,
 				6332B8951C00FA87005FDBB3 /* MainMenu.xib */,
 				6332B8981C00FA87005FDBB3 /* Info.plist */,
@@ -140,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6332B8A01C00FB1A005FDBB3 /* BracketedTest.m in Sources */,
 				6332B8921C00FA87005FDBB3 /* main.m in Sources */,
 				6332B88F1C00FA87005FDBB3 /* AppDelegate.m in Sources */,
 			);
@@ -245,6 +251,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "bracketed-window-op-test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.porkrind.bracketed-window-op-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -257,6 +264,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "bracketed-window-op-test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.porkrind.bracketed-window-op-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

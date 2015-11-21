@@ -7,9 +7,14 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "BracketedTest.h"
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
+{
+    IBOutlet BracketedTest *testView;
+}
 
+- (IBAction)doClick:(id)sender;
 
 @end
 
