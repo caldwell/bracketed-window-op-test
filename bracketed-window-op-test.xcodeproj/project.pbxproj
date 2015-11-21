@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6332B88F1C00FA87005FDBB3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6332B88E1C00FA87005FDBB3 /* AppDelegate.m */; };
+		6332B8921C00FA87005FDBB3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6332B8911C00FA87005FDBB3 /* main.m */; };
+		6332B8941C00FA87005FDBB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6332B8931C00FA87005FDBB3 /* Assets.xcassets */; };
+		6332B8971C00FA87005FDBB3 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6332B8951C00FA87005FDBB3 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6332B88A1C00FA87005FDBB3 /* bracketed-window-op-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bracketed-window-op-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6332B88D1C00FA87005FDBB3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6332B88E1C00FA87005FDBB3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6332B8911C00FA87005FDBB3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6332B8931C00FA87005FDBB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6332B8961C00FA87005FDBB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		6332B8981C00FA87005FDBB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6332B8871C00FA87005FDBB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6332B8811C00FA87005FDBB3 = {
+			isa = PBXGroup;
+			children = (
+				6332B88C1C00FA87005FDBB3 /* bracketed-window-op-test */,
+				6332B88B1C00FA87005FDBB3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6332B88B1C00FA87005FDBB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6332B88A1C00FA87005FDBB3 /* bracketed-window-op-test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6332B88C1C00FA87005FDBB3 /* bracketed-window-op-test */ = {
+			isa = PBXGroup;
+			children = (
+				6332B88D1C00FA87005FDBB3 /* AppDelegate.h */,
+				6332B88E1C00FA87005FDBB3 /* AppDelegate.m */,
+				6332B8931C00FA87005FDBB3 /* Assets.xcassets */,
+				6332B8951C00FA87005FDBB3 /* MainMenu.xib */,
+				6332B8981C00FA87005FDBB3 /* Info.plist */,
+				6332B8901C00FA87005FDBB3 /* Supporting Files */,
+			);
+			path = "bracketed-window-op-test";
+			sourceTree = "<group>";
+		};
+		6332B8901C00FA87005FDBB3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6332B8911C00FA87005FDBB3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6332B8891C00FA87005FDBB3 /* bracketed-window-op-test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6332B89B1C00FA87005FDBB3 /* Build configuration list for PBXNativeTarget "bracketed-window-op-test" */;
+			buildPhases = (
+				6332B8861C00FA87005FDBB3 /* Sources */,
+				6332B8871C00FA87005FDBB3 /* Frameworks */,
+				6332B8881C00FA87005FDBB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "bracketed-window-op-test";
+			productName = "bracketed-window-op-test";
+			productReference = 6332B88A1C00FA87005FDBB3 /* bracketed-window-op-test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6332B8821C00FA87005FDBB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "David Caldwell";
+				TargetAttributes = {
+					6332B8891C00FA87005FDBB3 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 6332B8851C00FA87005FDBB3 /* Build configuration list for PBXProject "bracketed-window-op-test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6332B8811C00FA87005FDBB3;
+			productRefGroup = 6332B88B1C00FA87005FDBB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6332B8891C00FA87005FDBB3 /* bracketed-window-op-test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6332B8881C00FA87005FDBB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6332B8941C00FA87005FDBB3 /* Assets.xcassets in Resources */,
+				6332B8971C00FA87005FDBB3 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6332B8861C00FA87005FDBB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6332B8921C00FA87005FDBB3 /* main.m in Sources */,
+				6332B88F1C00FA87005FDBB3 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6332B8951C00FA87005FDBB3 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6332B8961C00FA87005FDBB3 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6332B8991C00FA87005FDBB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6332B89A1C00FA87005FDBB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6332B89C1C00FA87005FDBB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "bracketed-window-op-test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.porkrind.bracketed-window-op-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6332B89D1C00FA87005FDBB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "bracketed-window-op-test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.porkrind.bracketed-window-op-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6332B8851C00FA87005FDBB3 /* Build configuration list for PBXProject "bracketed-window-op-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6332B8991C00FA87005FDBB3 /* Debug */,
+				6332B89A1C00FA87005FDBB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6332B89B1C00FA87005FDBB3 /* Build configuration list for PBXNativeTarget "bracketed-window-op-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6332B89C1C00FA87005FDBB3 /* Debug */,
+				6332B89D1C00FA87005FDBB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6332B8821C00FA87005FDBB3 /* Project object */;
+}
